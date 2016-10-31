@@ -1,8 +1,7 @@
-@media screen and (min-width:1110px){
+@media screen and (max-width:480px){
 .fixed-width {
-    width: 1110px;
+    width: 100%;
     margin: auto;
-
 }
 
 h2.title {
@@ -11,43 +10,40 @@ h2.title {
     line-height: 200px;
 }
 .col-2 {
-    width: 535px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
+    width: 95%;
+    margin: auto;
+/*    margin-left: 10px;*/
+/*    margin-right: 10px;*/
+    }
 .col-3{
-    width: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
+    width: 95%;
+    margin: auto;
+    }
 .col-4 {
-    width: calc(25% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
+    width: 95%;
+    margin:auto;
 }
 nav {
-    height: 78px;
+/*    height: 78px;*/
     box-shadow: 0 1px 1px rgba(0,0,0,.2);
 /*    border-bottom: 1px solid rgba(0,0,0,.5);*/
 }
 nav .logo {
-    float: left;
-    width: 150px;
+/*    float: left;*/
+    width: 100%;
     height: 78px;
     background-color: aqua;
-}
+    margin: auto;
+    }
 nav .menu {
-    float: right;
+    /*    float: right;*/
 }
 nav .menu ul {
     margin: 0;
     padding: 0;
 }
 nav .menu ul li {
-    float: left;
+/*    float: left;*/
     list-style-type: none;
 }
 nav .menu ul li a {
@@ -55,18 +51,14 @@ nav .menu ul li a {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 78px; 
-    transition: all .4s;
+    text-align: center;
 }
-nav .menu ul li a:hover{
-        color: #0e62eb;
-        
-    }
 header {
-    height: 600px;
-    background-image: url(http://lorempicsum.com/rio/1600/600/4);
+    height: 200px;
+    background-image: url(http://lorempicsum.com/rio/480/200/4);
     background-size: cover;
     background-position: center;
-}
+    }
 
 #about p {
     margin-bottom: 20px;
@@ -81,7 +73,7 @@ header {
     transform: scale(.75);
 }
 #hobby {
-    margin-top: 100px;
+    margin-top: 60px;
 /*    background-color: aqua;*/
     background-image: linear-gradient(0deg,rgba(255, 196, 0, .2) 50%,rgba(255, 196, 0, .6) 50%),linear-gradient(90deg,rgba(255, 196, 0, .2) 50%,rgba(255, 196, 0, .6) 50%);
     background-size: 222px 222px;
@@ -92,6 +84,7 @@ header {
     text-align: center;
     background-color: #eee;
     padding: 50px;
+    margin-bottom: 20px;
 }
 #hobby .box div {
     margin-bottom: 30px;
@@ -112,36 +105,41 @@ header {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 .gallery {
     margin-top: 100px;
 }
 .gallery .items {
-    width: calc(100%/3);
+    width: 50%;
     height: 100%;
     overflow: hidden;
     float: left;
 }
 #portfolio .btn {
     display: block;
-    width: 200px;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     background-color: #ccc;
-    border-radius: 10px;   
+/*    border-radius: 10px;   */
 }
 #share {
-    background-color: #ddd;
+/*    background-color: #ddd;*/
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
     color: #260038;
 }
 #share .box {
+    background-color: #ddd;
     text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #share .number {
     font-size: 60px;
@@ -166,12 +164,14 @@ header {
     text-align: center;
     background-color: #fff;
     padding: 30px;
+    margin-bottom: 20px;
 }
 #shop .box p {
     font-size: 14px;
     line-height: 36px;
 }
 .shop-btn {
+/*    width: 100%;*/
     margin-top: 30px;
     display: inline-block;
     padding-left: 30px;
@@ -179,6 +179,7 @@ header {
     height: 40px;
     line-height: 40px;
     background-color: aqua;
+    text-align: center;
     border: 0;
 }
 #contact {
@@ -189,7 +190,7 @@ header {
     margin: 30px 0;
 }
 #myForm {
-    width: 800px;
+    width: 95%;
     margin: auto;
     text-align: center;
 }
@@ -197,14 +198,15 @@ header {
    
 }
 #myForm input[type=text]{
-    width: 800px;
+    width: 100%;
     padding: 15px;
 } 
 #myForm div {
-    margin: 30px 0;
+    width: 100%;
+    margin: 20px 0;
 }
 #myForm textarea {
-    width: 800px;
+    width: 100%;
     padding: 15px;
 }
 footer {
@@ -219,7 +221,7 @@ footer .icon {
     color: #fff;
     width: 40px;
     height: 40px;
-    margin: 15px;
+    margin: 15px 5px;
     line-height: 40px;
 }
 footer p {
